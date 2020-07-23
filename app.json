@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "spizzzy",
-    "slug": "spizzzy",
+    "name": "Next Store",
+    "slug": "NextStore",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,14 +10,18 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "android": {
+      "package": "com.puneet.nextstore",
+      "versionCode": 1
+    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.puneet.nextstore",
+      "buildNumber": "0.0.1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
